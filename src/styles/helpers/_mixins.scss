@@ -18,3 +18,13 @@
     #{$maxSize * 1rem}
   );
 }
+
+@mixin hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@mixin show {
+  opacity: 1;
+  visibility: visible;
+}
