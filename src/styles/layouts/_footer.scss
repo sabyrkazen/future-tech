@@ -28,12 +28,14 @@
       row-gap: fluid(36, 16);
 
       &:last-child {
-        grid-column: -1 / 1;
+        @include tablet {
+          grid-column: -1 / 1;
 
-        .footer__menu-list {
-          flex-direction: row;
-          flex-wrap: wrap;
-          gap: rem(12);
+          .footer__menu-list {
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: rem(12);
+          }
         }
       }
     }
