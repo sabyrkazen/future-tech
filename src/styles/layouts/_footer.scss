@@ -1,1 +1,8 @@
 @use '../helpers' as *;
+
+.footer {
+  &__body {
+    padding-block: fluid(80, 40);
+    border-bottom: var(--border);
+  }
+}
