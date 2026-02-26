@@ -57,11 +57,7 @@
     }
 
     &-link.button {
-      padding: rem(10) rem(16);
-
-      @include laptop {
-        padding: rem(8) rem(14);
-      }
+      padding: fluid(10, 8) fluid(16, 14);
 
       span::after {
         --size: #{rem(20)};
