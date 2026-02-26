@@ -48,6 +48,10 @@
   }
 
   &__menu {
+    @include mobile {
+      overflow-y: auto;
+    }
+
     &-list {
       display: flex;
       align-items: center;
