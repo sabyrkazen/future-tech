@@ -3,6 +3,7 @@
 @use './components';
 @use './layouts';
 
-.header {
+.header,
+.footer {
   display: none !important;
 }
