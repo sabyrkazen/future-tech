@@ -23,6 +23,13 @@
       row-gap: rem(20);
     }
 
+    &-main-link {
+      @include fluid-text(20, 16);
+
+      font-weight: 500;
+      color: var(--color-light);
+    }
+
     &-column {
       display: grid;
       row-gap: fluid(36, 16);
