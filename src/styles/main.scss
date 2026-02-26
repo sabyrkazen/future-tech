@@ -2,3 +2,7 @@
 @use './base';
 @use './components';
 @use './layouts';
+
+.header {
+  display: none !important;
+}
