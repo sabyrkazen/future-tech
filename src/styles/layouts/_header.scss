@@ -27,6 +27,14 @@
     @include mobile-above {
       display: contents;
     }
+
+    @include mobile {
+      &:not(.is-active) {
+        @include hide;
+
+        translate: 100%;
+      }
+    }
   }
 
   &__menu {
